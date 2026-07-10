@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, ScrollView } from 'react-native'
+import { StyleSheet, Text, View, ScrollView, Image } from 'react-native'
 import React from 'react'
 
 const GetTrainScreen = () => {
@@ -9,36 +9,41 @@ const GetTrainScreen = () => {
                 <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a' }}>Get Train Screen</Text>
             </View>
 
-            <ScrollView style={{ marginTop: 10, }}
-                showsVerticalScrollIndicator={false}
-            >
+            <ScrollView style={{ marginTop: 10, }} showsVerticalScrollIndicator={false}>
 
                 <View>
-                    <View style={{ height: 150, backgroundColor: 'red', marginBottom: 10, borderRadius: 12 }} />
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
-                        Get Train Screen
-                    </Text>
+                    <View style={{ justifyContent: 'center', flexDirection: 'row', alignItems: 'center', height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                        <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
+                        <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                    </View>
                 </View>
 
-                <View style={{ borderRadius: 12 }}>
-                    <View style={{ height: 150, backgroundColor: 'red', marginBottom: 10, borderRadius: 12 }} />
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
-                        Get Train Screen
-                    </Text>
+                <View>
+                    <View style={{ justifyContent: 'center', flexDirection: 'row', alignItems: 'center', height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                        <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
+                        <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                    </View>
                 </View>
 
-                <View style={{ borderRadius: 12 }}>
-                    <View style={{ height: 150, backgroundColor: 'red', marginBottom: 10, borderRadius: 12 }} />
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
-                        Get Train Screen
-                    </Text>
+                <View>
+                    <View style={{ justifyContent: 'center', flexDirection: 'row', alignItems: 'center', height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                        <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
+                        <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                    </View>
                 </View>
 
-                <View style={{ borderRadius: 12 }}>
-                    <View style={{ height: 150, backgroundColor: 'red', marginBottom: 10, borderRadius: 12 }} />
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
-                        Get Train Screen
-                    </Text>
+                <View>
+                    <View style={{ justifyContent: 'center', flexDirection: 'row', alignItems: 'center', height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                        <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
+                        <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                    </View>
+                </View>
+
+                <View>
+                    <View style={{ justifyContent: 'center', flexDirection: 'row', alignItems: 'center', height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                        <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
+                        <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                    </View>
                 </View>
 
             </ScrollView>
