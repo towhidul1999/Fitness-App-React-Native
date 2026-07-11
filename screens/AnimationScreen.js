@@ -4,7 +4,7 @@ import Video from 'react-native-video';
 
 const AnimationScreen = () => {
     return (
-        <View>
+        <View style={{ flex: 1, backgroundColor: '#d9f8e2' }}>
             <View style={{ flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center', marginTop: 65, paddingHorizontal: 20 }}>
                 <TouchableOpacity>
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a' }}>Video</Text>
@@ -26,59 +26,136 @@ const AnimationScreen = () => {
                     width: '100%',
                 }}
             >
-                <View >
+                <View style={{
+                    backgroundColor: '#0F1115',
+                    // borderRadius: 16,
+                    overflow: 'hidden',
+                    // marginBottom: 16,
+                    shadowColor: '#000',
+                    shadowOffset: { width: 0, height: 6 },
+                    shadowOpacity: 0.25,
+                    shadowRadius: 10,
+                    elevation: 5,
+                }}>
                     {/* <View style={{ height: 200, backgroundColor: 'red', marginBottom: 10, }} /> */}
                     <Video
                         source={require('../Assets/Towhidul_Mobile_App_Deveoper_intro.mp4')}
-                        style={{ width: '100%', height: 200 }}
+                        style={{ width: '100%', height: 200, borderTopLeftRadius: 16, borderTopRightRadius: 16 }}
                         controls={true}
                         autoPlay={false}
                     />
 
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
-                        Animation 1
-                    </Text>
+                    <View style={{ padding: 16 }}>
+                        <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 8 }}>
+                            <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: '#00FF6A', marginRight: 8 }} />
+                            <Text style={{ fontSize: 18, fontWeight: '700', color: '#FFFFFF' }}>
+                                Animation 1
+                            </Text>
+                        </View>
 
-                    <Text style={{ fontSize: 16, color: '#00ff6a', marginBottom: 10 }}>
-                        This is a sample animation description. You can add more details about the animation here.
-                    </Text>
+                        <Text style={{ fontSize: 14, color: '#A1A1AA', lineHeight: 20 }}>
+                            This is a sample animation description. You can add more details about the animation here.
+                        </Text>
+                    </View>
                 </View>
 
-                <View>
-                    {/* <View style={{ height: 200, backgroundColor: 'blue', marginBottom: 10 }} /> */}
+                <View style={{
+                    backgroundColor: '#0F1115',
+                    // borderRadius: 16,
+                    overflow: 'hidden',
+                    // marginBottom: 16,
+                    shadowColor: '#000',
+                    shadowOffset: { width: 0, height: 6 },
+                    shadowOpacity: 0.25,
+                    shadowRadius: 10,
+                    elevation: 5,
+                }}>
+                    {/* <View style={{ height: 200, backgroundColor: 'red', marginBottom: 10, }} /> */}
                     <Video
                         source={require('../Assets/Towhidul_Mobile_App_Deveoper_intro.mp4')}
-                        style={{ width: '100%', height: 200 }}
+                        style={{ width: '100%', height: 200, borderTopLeftRadius: 16, borderTopRightRadius: 16 }}
                         controls={true}
-                        autoPlay={true}
+                        autoPlay={false}
                     />
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
-                        Animation 2
-                    </Text>
+
+                    <View style={{ padding: 16 }}>
+                        <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 8 }}>
+                            <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: '#00FF6A', marginRight: 8 }} />
+                            <Text style={{ fontSize: 18, fontWeight: '700', color: '#FFFFFF' }}>
+                                Animation 1
+                            </Text>
+                        </View>
+
+                        <Text style={{ fontSize: 14, color: '#A1A1AA', lineHeight: 20 }}>
+                            This is a sample animation description. You can add more details about the animation here.
+                        </Text>
+                    </View>
                 </View>
 
-                <View>
-                    {/* <View style={{ height: 200, backgroundColor: 'orange', marginBottom: 10 }} /> */}
+                <View style={{
+                    backgroundColor: '#0F1115',
+                    // borderRadius: 16,
+                    overflow: 'hidden',
+                    // marginBottom: 16,
+                    shadowColor: '#000',
+                    shadowOffset: { width: 0, height: 6 },
+                    shadowOpacity: 0.25,
+                    shadowRadius: 10,
+                    elevation: 5,
+                }}>
+                    {/* <View style={{ height: 200, backgroundColor: 'red', marginBottom: 10, }} /> */}
                     <Video
                         source={require('../Assets/Towhidul_Mobile_App_Deveoper_intro.mp4')}
-                        style={{ width: '100%', height: 200 }}
+                        style={{ width: '100%', height: 200, borderTopLeftRadius: 16, borderTopRightRadius: 16 }}
                         controls={true}
+                        autoPlay={false}
                     />
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
-                        Animation 3
-                    </Text>
+
+                    <View style={{ padding: 16 }}>
+                        <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 8 }}>
+                            <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: '#00FF6A', marginRight: 8 }} />
+                            <Text style={{ fontSize: 18, fontWeight: '700', color: '#FFFFFF' }}>
+                                Animation 1
+                            </Text>
+                        </View>
+
+                        <Text style={{ fontSize: 14, color: '#A1A1AA', lineHeight: 20 }}>
+                            This is a sample animation description. You can add more details about the animation here.
+                        </Text>
+                    </View>
                 </View>
 
-                <View>
-                    {/* <View style={{ height: 200, backgroundColor: 'green', marginBottom: 10 }} /> */}
+                <View style={{
+                    backgroundColor: '#0F1115',
+                    // borderRadius: 16,
+                    overflow: 'hidden',
+                    // marginBottom: 16,
+                    shadowColor: '#000',
+                    shadowOffset: { width: 0, height: 6 },
+                    shadowOpacity: 0.25,
+                    shadowRadius: 10,
+                    elevation: 5,
+                }}>
+                    {/* <View style={{ height: 200, backgroundColor: 'red', marginBottom: 10, }} /> */}
                     <Video
                         source={require('../Assets/Towhidul_Mobile_App_Deveoper_intro.mp4')}
-                        style={{ width: '100%', height: 200 }}
+                        style={{ width: '100%', height: 200, borderTopLeftRadius: 16, borderTopRightRadius: 16 }}
                         controls={true}
+                        autoPlay={false}
                     />
-                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
-                        Animation 4
-                    </Text>
+
+                    <View style={{ padding: 16 }}>
+                        <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 8 }}>
+                            <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: '#00FF6A', marginRight: 8 }} />
+                            <Text style={{ fontSize: 18, fontWeight: '700', color: '#FFFFFF' }}>
+                                Animation 1
+                            </Text>
+                        </View>
+
+                        <Text style={{ fontSize: 14, color: '#A1A1AA', lineHeight: 20 }}>
+                            This is a sample animation description. You can add more details about the animation here.
+                        </Text>
+                    </View>
                 </View>
 
             </ScrollView>
