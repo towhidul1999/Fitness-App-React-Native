@@ -32,10 +32,15 @@ const AnimationScreen = () => {
                         source={require('../Assets/Towhidul_Mobile_App_Deveoper_intro.mp4')}
                         style={{ width: '100%', height: 200 }}
                         controls={true}
+                        autoPlay={false}
                     />
 
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
                         Animation 1
+                    </Text>
+
+                    <Text style={{ fontSize: 16, color: '#00ff6a', marginBottom: 10 }}>
+                        This is a sample animation description. You can add more details about the animation here.
                     </Text>
                 </View>
 
@@ -45,6 +50,7 @@ const AnimationScreen = () => {
                         source={require('../Assets/Towhidul_Mobile_App_Deveoper_intro.mp4')}
                         style={{ width: '100%', height: 200 }}
                         controls={true}
+                        autoPlay={true}
                     />
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
                         Animation 2

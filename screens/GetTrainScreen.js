@@ -12,37 +12,67 @@ const GetTrainScreen = () => {
             <ScrollView style={{ marginTop: 10, }} showsVerticalScrollIndicator={false}>
 
                 <View>
-                    <View style={{ justifyContent: 'center', flexDirection: 'row', alignItems: 'center', height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', padding: 15, height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
-                        <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                        <View>
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                            <Text style={{ fontSize: 10, color: '#000', paddingLeft: 10 }}>Experience: 5 years</Text>
+                        </View>
+                        <View >
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
+                        </View>
                     </View>
                 </View>
 
                 <View>
-                    <View style={{ justifyContent: 'center', flexDirection: 'row', alignItems: 'center', height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', padding: 15, height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
-                        <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                        <View>
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                            <Text style={{ fontSize: 10, color: '#000', paddingLeft: 10 }}>Experience: 5 years</Text>
+                        </View>
+                        <View >
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
+                        </View>
                     </View>
                 </View>
 
                 <View>
-                    <View style={{ justifyContent: 'center', flexDirection: 'row', alignItems: 'center', height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', padding: 15, height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
-                        <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                        <View>
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                            <Text style={{ fontSize: 10, color: '#000', paddingLeft: 10 }}>Experience: 5 years</Text>
+                        </View>
+                        <View >
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
+                        </View>
                     </View>
                 </View>
 
                 <View>
-                    <View style={{ justifyContent: 'center', flexDirection: 'row', alignItems: 'center', height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', padding: 15, height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
-                        <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                        <View>
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                            <Text style={{ fontSize: 10, color: '#000', paddingLeft: 10 }}>Experience: 5 years</Text>
+                        </View>
+                        <View >
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
+                        </View>
                     </View>
                 </View>
 
                 <View>
-                    <View style={{ justifyContent: 'center', flexDirection: 'row', alignItems: 'center', height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', padding: 15, height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
-                        <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                        <View>
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                            <Text style={{ fontSize: 10, color: '#000', paddingLeft: 10 }}>Experience: 5 years</Text>
+                        </View>
+                        <View >
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
+                        </View>
                     </View>
                 </View>
 
