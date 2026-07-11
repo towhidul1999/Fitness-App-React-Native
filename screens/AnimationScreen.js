@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, TouchableOpacity, ScrollView } from 'react-native'
 import React from 'react'
+import Video from 'react-native-video';
 
 const AnimationScreen = () => {
     return (
@@ -26,7 +27,12 @@ const AnimationScreen = () => {
                 }}
             >
                 <View >
-                    <View style={{ height: 200, backgroundColor: 'red', marginBottom: 10, }} />
+                    {/* <View style={{ height: 200, backgroundColor: 'red', marginBottom: 10, }} /> */}
+                    <Video
+                        source={require('../Assets/Towhidul_Mobile_App_Deveoper_intro.mp4')}
+                        style={{ width: '100%', height: 200 }}
+                        controls={true}
+                    />
 
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
                         Animation 1
@@ -34,21 +40,36 @@ const AnimationScreen = () => {
                 </View>
 
                 <View>
-                    <View style={{ height: 200, backgroundColor: 'blue', marginBottom: 10 }} />
+                    {/* <View style={{ height: 200, backgroundColor: 'blue', marginBottom: 10 }} /> */}
+                    <Video
+                        source={require('../Assets/Towhidul_Mobile_App_Deveoper_intro.mp4')}
+                        style={{ width: '100%', height: 200 }}
+                        controls={true}
+                    />
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
                         Animation 2
                     </Text>
                 </View>
 
                 <View>
-                    <View style={{ height: 200, backgroundColor: 'orange', marginBottom: 10 }} />
+                    {/* <View style={{ height: 200, backgroundColor: 'orange', marginBottom: 10 }} /> */}
+                    <Video
+                        source={require('../Assets/Towhidul_Mobile_App_Deveoper_intro.mp4')}
+                        style={{ width: '100%', height: 200 }}
+                        controls={true}
+                    />
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
                         Animation 3
                     </Text>
                 </View>
 
                 <View>
-                    <View style={{ height: 200, backgroundColor: 'green', marginBottom: 10 }} />
+                    {/* <View style={{ height: 200, backgroundColor: 'green', marginBottom: 10 }} /> */}
+                    <Video
+                        source={require('../Assets/Towhidul_Mobile_App_Deveoper_intro.mp4')}
+                        style={{ width: '100%', height: 200 }}
+                        controls={true}
+                    />
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a', marginBottom: 10 }}>
                         Animation 4
                     </Text>
