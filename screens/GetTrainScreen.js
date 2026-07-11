@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, ScrollView, Image } from 'react-native'
+import { StyleSheet, Text, View, ScrollView, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 
 const GetTrainScreen = () => {
@@ -10,9 +10,9 @@ const GetTrainScreen = () => {
             </View>
 
             <ScrollView style={{ marginTop: 10, }} showsVerticalScrollIndicator={false}>
-
                 <View>
-                    <View style={{ flexDirection: 'row', padding: 15, height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
                         <View>
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
@@ -21,11 +21,49 @@ const GetTrainScreen = () => {
                         <View >
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
                         </View>
+
+                        <View style={{ flexDirection: 'row', width: '100%', marginTop: 15, justifyContent: 'space-between' }}>
+                            <TouchableOpacity style={{ flex: 1, backgroundColor: '#000', paddingVertical: 10, borderRadius: 8, marginRight: 8, alignItems: 'center' }}>
+                                <Text style={{ color: '#FFFFFF', fontSize: 13, fontWeight: 'bold' }}>BOOK</Text>
+                            </TouchableOpacity>
+                            <TouchableOpacity style={{ flex: 1, backgroundColor: '#FFFFFF', paddingVertical: 10, borderRadius: 8, marginLeft: 8, alignItems: 'center', borderWidth: 1, borderColor: '#000' }}>
+                                <Text style={{ color: '#000', fontSize: 13, fontWeight: 'bold' }}>DETAILS</Text>
+                            </TouchableOpacity>
+                        </View>
+
                     </View>
+
+                </View>
+
+
+                <View>
+
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                        <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
+                        <View>
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
+                            <Text style={{ fontSize: 10, color: '#000', paddingLeft: 10 }}>Experience: 5 years</Text>
+                        </View>
+                        <View >
+                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
+                        </View>
+
+                        <View style={{ flexDirection: 'row', width: '100%', marginTop: 15, justifyContent: 'space-between' }}>
+                            <TouchableOpacity style={{ flex: 1, backgroundColor: '#000', paddingVertical: 10, borderRadius: 8, marginRight: 8, alignItems: 'center' }}>
+                                <Text style={{ color: '#FFFFFF', fontSize: 13, fontWeight: 'bold' }}>BOOK</Text>
+                            </TouchableOpacity>
+                            <TouchableOpacity style={{ flex: 1, backgroundColor: '#FFFFFF', paddingVertical: 10, borderRadius: 8, marginLeft: 8, alignItems: 'center', borderWidth: 1, borderColor: '#000' }}>
+                                <Text style={{ color: '#000', fontSize: 13, fontWeight: 'bold' }}>DETAILS</Text>
+                            </TouchableOpacity>
+                        </View>
+
+                    </View>
+
                 </View>
 
                 <View>
-                    <View style={{ flexDirection: 'row', padding: 15, height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
                         <View>
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
@@ -34,24 +72,23 @@ const GetTrainScreen = () => {
                         <View >
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
                         </View>
+
+                        <View style={{ flexDirection: 'row', width: '100%', marginTop: 15, justifyContent: 'space-between' }}>
+                            <TouchableOpacity style={{ flex: 1, backgroundColor: '#000', paddingVertical: 10, borderRadius: 8, marginRight: 8, alignItems: 'center' }}>
+                                <Text style={{ color: '#FFFFFF', fontSize: 13, fontWeight: 'bold' }}>BOOK</Text>
+                            </TouchableOpacity>
+                            <TouchableOpacity style={{ flex: 1, backgroundColor: '#FFFFFF', paddingVertical: 10, borderRadius: 8, marginLeft: 8, alignItems: 'center', borderWidth: 1, borderColor: '#000' }}>
+                                <Text style={{ color: '#000', fontSize: 13, fontWeight: 'bold' }}>DETAILS</Text>
+                            </TouchableOpacity>
+                        </View>
+
                     </View>
+
                 </View>
 
                 <View>
-                    <View style={{ flexDirection: 'row', padding: 15, height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
-                        <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
-                        <View>
-                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
-                            <Text style={{ fontSize: 10, color: '#000', paddingLeft: 10 }}>Experience: 5 years</Text>
-                        </View>
-                        <View >
-                            <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
-                        </View>
-                    </View>
-                </View>
 
-                <View>
-                    <View style={{ flexDirection: 'row', padding: 15, height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
                         <View>
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
@@ -60,11 +97,22 @@ const GetTrainScreen = () => {
                         <View >
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
                         </View>
-                    </View>
-                </View>
 
+                        <View style={{ flexDirection: 'row', width: '100%', marginTop: 15, justifyContent: 'space-between' }}>
+                            <TouchableOpacity style={{ flex: 1, backgroundColor: '#000', paddingVertical: 10, borderRadius: 8, marginRight: 8, alignItems: 'center' }}>
+                                <Text style={{ color: '#FFFFFF', fontSize: 13, fontWeight: 'bold' }}>BOOK</Text>
+                            </TouchableOpacity>
+                            <TouchableOpacity style={{ flex: 1, backgroundColor: '#FFFFFF', paddingVertical: 10, borderRadius: 8, marginLeft: 8, alignItems: 'center', borderWidth: 1, borderColor: '#000' }}>
+                                <Text style={{ color: '#000', fontSize: 13, fontWeight: 'bold' }}>DETAILS</Text>
+                            </TouchableOpacity>
+                        </View>
+
+                    </View>
+
+                </View>
                 <View>
-                    <View style={{ flexDirection: 'row', padding: 15, height: 150, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
+
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#4ADE80', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
                         <View>
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
@@ -73,7 +121,18 @@ const GetTrainScreen = () => {
                         <View >
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10, marginLeft: 80 }}>Rating: 4.5</Text>
                         </View>
+
+                        <View style={{ flexDirection: 'row', width: '100%', marginTop: 15, justifyContent: 'space-between' }}>
+                            <TouchableOpacity style={{ flex: 1, backgroundColor: '#000', paddingVertical: 10, borderRadius: 8, marginRight: 8, alignItems: 'center' }}>
+                                <Text style={{ color: '#FFFFFF', fontSize: 13, fontWeight: 'bold' }}>BOOK</Text>
+                            </TouchableOpacity>
+                            <TouchableOpacity style={{ flex: 1, backgroundColor: '#FFFFFF', paddingVertical: 10, borderRadius: 8, marginLeft: 8, alignItems: 'center', borderWidth: 1, borderColor: '#000' }}>
+                                <Text style={{ color: '#000', fontSize: 13, fontWeight: 'bold' }}>DETAILS</Text>
+                            </TouchableOpacity>
+                        </View>
+
                     </View>
+
                 </View>
 
             </ScrollView>
