@@ -33,6 +33,7 @@ export default function RootNavigator() {
                         paddingTop: 8,
                         paddingBottom: 10,
                         backgroundColor: '#a1aabd',
+                        opacity: 0.9,
                         borderRadius: 20,
                         borderTopWidth: 0,
                         elevation: 10,
