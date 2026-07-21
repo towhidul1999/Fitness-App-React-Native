@@ -26,22 +26,19 @@ export default function RootNavigator() {
                     tabBarInactiveTintColor: '#11110f',
 
                     tabBarStyle: {
+                        position: 'absolute',
+                        marginHorizontal: 20,
+                        bottom: 20,
                         height: 70,
                         paddingTop: 8,
                         paddingBottom: 10,
                         backgroundColor: '#a1aabd',
-                        margin: 20,
                         borderRadius: 20,
-
                         borderTopWidth: 0,
-
-                        elevation: 10, // Android
-                        shadowColor: '#ffff00', // iOS
+                        elevation: 10,
+                        shadowColor: '#ffff00',
                         shadowOpacity: 0.08,
-                        shadowOffset: {
-                            width: 0,
-                            height: -3,
-                        },
+                        shadowOffset: { width: 0, height: -3 },
                         shadowRadius: 8,
                     },
 

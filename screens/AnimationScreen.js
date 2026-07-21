@@ -4,7 +4,7 @@ import Video from 'react-native-video';
 
 const AnimationScreen = () => {
     return (
-        <View style={{ flex: 1, backgroundColor: '#d9f8e2' }}>
+        <View style={{ flex: 1 }}>
             <View style={{ flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center', marginTop: 65, paddingHorizontal: 20 }}>
                 <TouchableOpacity>
                     <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#00ff6a' }}>Video</Text>
