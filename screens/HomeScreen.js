@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
     // Hero card
     heroCard: {
         marginTop: 24,
-        backgroundColor: '#4B5A93',
+        backgroundColor: '#3d4299',
         borderRadius: CARD_RADIUS,
         padding: 22,
         shadowColor: '#111827',
@@ -290,7 +290,7 @@ const styles = StyleSheet.create({
 
     // Meal card
     mealCard: {
-        backgroundColor: '#4B5A93',
+        backgroundColor: '#3d4299',
         borderRadius: CARD_RADIUS,
         paddingHorizontal: 18,
         paddingVertical: 6,

@@ -12,7 +12,7 @@ const GetTrainScreen = () => {
             <ScrollView style={{ marginTop: 10, marginHorizontal: 20 }} showsVerticalScrollIndicator={false}>
                 <View>
 
-                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#4B5A93', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#3d4299', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
                         <View>
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
@@ -38,7 +38,7 @@ const GetTrainScreen = () => {
 
                 <View>
 
-                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#4B5A93', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#3d4299', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
                         <View>
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
@@ -63,7 +63,7 @@ const GetTrainScreen = () => {
 
                 <View>
 
-                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#4B5A93', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#3d4299', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
                         <View>
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
@@ -88,7 +88,7 @@ const GetTrainScreen = () => {
 
                 <View>
 
-                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#4B5A93', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#3d4299', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
                         <View>
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
@@ -112,7 +112,7 @@ const GetTrainScreen = () => {
                 </View>
                 <View>
 
-                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#4B5A93', marginBottom: 10, borderRadius: 12 }}>
+                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', padding: 15, backgroundColor: '#3d4299', marginBottom: 10, borderRadius: 12 }}>
                         <Image source={require('../Assets/profile.png')} style={{ width: 50, height: 50, borderRadius: 12 }} />
                         <View>
                             <Text style={{ fontSize: 12, fontWeight: 'bold', color: '#000', padding: 10 }}>Trainer card</Text>
