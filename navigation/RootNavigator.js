@@ -29,7 +29,9 @@ export default function RootNavigator() {
                         height: 70,
                         paddingTop: 8,
                         paddingBottom: 10,
-                        backgroundColor: '#cbf9d0',
+                        backgroundColor: '#a1aabd',
+                        margin: 20,
+                        borderRadius: 20,
 
                         borderTopWidth: 0,
 
