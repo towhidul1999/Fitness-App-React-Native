@@ -27,7 +27,7 @@ const AnimationScreen = () => {
                 }}
             >
                 <View style={{
-                    backgroundColor: '#0F1115',
+                    backgroundColor: '#1f2965',
                     // borderRadius: 16,
                     overflow: 'hidden',
                     // marginBottom: 16,
@@ -60,7 +60,7 @@ const AnimationScreen = () => {
                 </View>
 
                 <View style={{
-                    backgroundColor: '#0F1115',
+                    backgroundColor: '#1f2965',
                     // borderRadius: 16,
                     overflow: 'hidden',
                     // marginBottom: 16,
@@ -93,7 +93,7 @@ const AnimationScreen = () => {
                 </View>
 
                 <View style={{
-                    backgroundColor: '#0F1115',
+                    backgroundColor: '#1f2965',
                     // borderRadius: 16,
                     overflow: 'hidden',
                     // marginBottom: 16,
@@ -126,7 +126,7 @@ const AnimationScreen = () => {
                 </View>
 
                 <View style={{
-                    backgroundColor: '#0F1115',
+                    backgroundColor: '#1f2965',
                     // borderRadius: 16,
                     overflow: 'hidden',
                     // marginBottom: 16,
