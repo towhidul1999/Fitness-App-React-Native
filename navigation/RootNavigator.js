@@ -22,8 +22,8 @@ export default function RootNavigator() {
                 screenOptions={{
                     headerShown: false,
 
-                    tabBarActiveTintColor: '#00ff6a',
-                    tabBarInactiveTintColor: '#f3ff17',
+                    tabBarActiveTintColor: '#ffffff',
+                    tabBarInactiveTintColor: '#11110f',
 
                     tabBarStyle: {
                         height: 70,
